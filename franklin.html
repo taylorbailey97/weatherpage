@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="css/main-5.css">
         <link rel="stylesheet" href="css/medium-5.css">
         <link rel="stylesheet" href="css/large-5.css">
-        <link href="dist/hamburgers.css" rel="stylesheet">
     </head>
 
 <body>
@@ -23,10 +22,13 @@
     </header>
 
     <main>
-        <figure class=".rimage">
-            <img src="images/srcsetimage.jpg" srcset="images/srcsetimage400.jpg 600w,
-                     images/srcsetimage600.jpg 1024w,
-                     images/srcsetimage1000.jpg 1600w" alt="responsive photo">
+        <h3>Franklin</h3>
+<figure class=".rimage">
+    <img src="images/srcsetimage.jpg" srcset="images/srcsetimage400.jpg 600w,
+                            images/srcsetimage600.jpg 1024w,
+                            images/srcsetimage1000.jpg 1600w" sizes=" 400px,
+                            600px,
+                            1000px" alt="responsive photo">
         </figure>
         <section class="weather-summary">
             <h3>Weather Summary</h3>
@@ -88,12 +90,12 @@
             <h3>Franklin Breaks Record</h3>
             <article class="article-flex">
                 <div class="town-article">
-                    <img src="images/cold%20weather.jpg">
+                    <img src="images/cold%20weather.jpg" alt="article 1">
                     <h4>Franklin has record low tempratures in 2017/2018 winter</h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam elit, ultrices sed quam et, imperdiet ornare nisl. Morbi quis posuere turpis...</p>
                 </div>
                 <div class="town-article">
-                    <img src="images/article-2.jpg">
+                    <img src="images/article-2.jpg" alt="article 2">
                     <h4>Franklin has record low tempratures in 2017/2018 winter</h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam elit, ultrices sed quam et, imperdiet ornare nisl. Morbi quis posuere turpis...</p>
                 </div>
@@ -108,6 +110,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/averageTemp.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/wu-weather.js"></script>
+    <script src="scripts/weather-data/wu-weather.js"></script>
 </body>
 </html>

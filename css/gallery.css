@@ -17,7 +17,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
-    justify-items: center;
 }
 
 .grid-item {
@@ -27,7 +26,7 @@ body {
 
 .grid-item img{
     max-width: 100%;
-    max-height: auto;
+    /*max-height: auto;*/
 }
 
 .grid-item p {
